@@ -1,0 +1,31 @@
+class RoutePaths {
+  static const String LOGIN = 'login';
+  static const String Dashboard = 'dashboard';
+  static const String FORGOT = 'forgot';
+  static const String CHANGENEWPASSWORD = 'changepassword';
+  static const String OTPVERIFICATION = 'otpverify';
+  static const String TimeAndToken = 'timeandtoken';
+  static const String TimeBased = 'timebased';
+  static const String TokenBased = 'tokenbased';
+  static const String AddInfo = 'addinfo';
+  static const String HealthRecord = 'healthrecord';
+  static const String ListAvailability = 'listavailability';
+  static const String OTPVerification = 'otpverification';
+  static const String PatientData = 'patientdata';
+  static const String PatientInfo = 'patientinfo';
+  static const String Pharmacy = 'pharmacy';
+  static const String Prescription = 'prescription';
+  static const String ReAppointment = 'reappointment';
+  static const String CheckedInAndDone = 'checkedinanddone';
+  static const String CheckedIn = 'checkin';
+  static const String DoneAppointment = 'doneappointment';
+  static const String DoctorList = 'doctorlist';
+  static const String AddDoctorList = 'adddoctorlist';
+  static const String EditAdminProfile = 'editadminprofile';
+  static const String StaffList = 'stafflist';
+  static const String AddStaffList = 'addstafflist';
+  static const String EditStaffList = 'editstafflist';
+  static const String OutOfOffice = 'outofoffice';
+  static const String ListOfAppointment = 'listofappointment';
+  static const String Notification_New = 'notificationScreen';
+}
